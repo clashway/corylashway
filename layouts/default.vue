@@ -16,4 +16,11 @@ html {
   box-sizing: border-box;
   background: #fafafa;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
+}
 </style>

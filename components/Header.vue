@@ -64,11 +64,7 @@ h1.name {
   color: #777777;
 }
 .answer a {
-  text-decoration: none;
   color: #777777;
-}
-.answer a:hover {
-  text-decoration: underline;
 }
 .resume-button {
   padding-top: 10px;

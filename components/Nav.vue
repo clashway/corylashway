@@ -2,8 +2,8 @@
   <div class="nav-inner">
     <span class="home">*home*</span>
     <ul class="nav-links">
-      <li>Portfolio</li>
-      <li>Contact</li>
+      <li><a href="/portfolio">Portfolio</a></li>
+      <li><a href="/contact">Contact</a></li>
     </ul>
     <span class="business-inquiry">
       <button type="button" name="inquiry">Hire Me</button>
@@ -42,6 +42,9 @@ export default {
 .nav-links li {
   list-style: none;
   padding-right: 20px;
+}
+.nav-links a:hover {
+  text-decoration: underline;
 }
 .business-inquiry {
   margin-top: 10px;
