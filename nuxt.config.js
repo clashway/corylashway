@@ -23,10 +23,9 @@ module.exports = {
     ['nuxt-fontawesome', {
       component: 'fa',
       imports: [
-        //import whole set
         {
           set: '@fortawesome/free-solid-svg-icons',
-          icons: ['fas']
+          icons: ['faHome']
         },
       ]
     }]
@@ -34,7 +33,7 @@ module.exports = {
   /*
   ** Customize the progress bar color
   */
-  loading: { color: '#3B8070' },
+  loading: { color: '#000000' },
   /*
   ** Build configuration
   */
