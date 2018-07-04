@@ -1,6 +1,6 @@
 <template>
   <div class="nav-inner">
-    <span class="home">*home*</span>
+    <span class="home"><a href="/">Bio</a></span>
     <ul class="nav-links">
       <li><a href="/portfolio">Portfolio</a></li>
       <li><a href="/contact">Contact</a></li>
