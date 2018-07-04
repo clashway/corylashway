@@ -1,14 +1,14 @@
 <template>
   <div class="header-inner">
     <h1 class="name">Cory Lashway</h1>
-    <p class="job-title">Developer</p>
+    <p class="job-title">Sr. Developer</p>
     <ul class="summary-bullets">
       <li>Name: <span class="answer">Cory Lashway</span></li>
       <li>Birthday: <span class="answer">06 March 1985</span></li>
-      <li>Job: <span class="answer">Code Ninja</span></li>
+      <li>Job: <span class="answer">VP, Engineering</span></li>
       <li>Email: <span class="answer"><a  href="mailto:cory.lashway@gmail.com?subject=Inquiry">cory.lashway@gmail.com</a></span></li>
-      <li>github: <span class="answer">corylashway</span></li>
-      <li>linkedin: <span class="answer"><a href="linkedin">corylashway</a></span></li>
+      <li>github: <span class="answer"><a href="https://github.com/clashway">clashway</a></span></li>
+      <li>linkedin: <span class="answer"><a href="https://www.linkedin.com/in/corylashway">corylashway</a></span></li>
     </ul>
     <div class="resume-button">
       <button type="button" name="download-resume">download resume</button>
