@@ -1,6 +1,6 @@
 <template>
   <div class="nav-inner">
-    <span class="home"></span>
+    <span class="home">*home*</span>
     <ul class="nav-links">
       <li>Portfolio</li>
       <li>Contact</li>
@@ -25,6 +25,13 @@ export default {
 .nav-inner {
   display: flex;
   flex-direction: row;
+}
+.home {
+  text-align: center;
+  line-height: 60px;
+  background: yellow;
+  width: 70px;
+  height: 100%;
 }
 .nav-links {
   display:flex;
