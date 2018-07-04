@@ -80,6 +80,7 @@ h1.name {
 .resume-button {
   padding-top: 10px;
   padding-left: 60px;
+  padding-bottom: 30px;
 }
 .resume-button button {
   text-decoration:none;

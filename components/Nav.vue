@@ -1,6 +1,10 @@
 <template>
   <div class="nav-inner">
-    <span class="home"><a href="/">Home</a></span>
+    <span class="home">
+      <a href="/">
+        <fa icon="home" transform="grow-6" />
+      </a>
+    </span>
     <ul class="nav-links">
       <li><router-link to="/portfolio">Portfolio</router-link></li>
       <li><router-link to="/contact">Contact</router-link></li>
@@ -29,15 +33,19 @@ export default {
 .home {
   text-align: center;
   line-height: 60px;
-  background: #fffc00;
-  width: 70px;
+  width: 60px;
   height: 100%;
+}
+.nav-home {
+  height: 30px;
+  width : 30px;
+  padding-top: 15px;
 }
 .nav-links {
   display:flex;
   flex-direction: row;
   margin-top: 23px;
-  padding-left: 10px;
+  padding-left: 0;
 }
 .nav-links li {
   list-style: none;
