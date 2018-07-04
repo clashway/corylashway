@@ -1,6 +1,6 @@
 <template>
   <div class="nav-inner">
-    <span class="home"><router-link to="/" exact>Bio</router-link></span>
+    <span class="home"><a href="/">Home</a></span>
     <ul class="nav-links">
       <li><router-link to="/portfolio">Portfolio</router-link></li>
       <li><router-link to="/contact">Contact</router-link></li>

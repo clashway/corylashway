@@ -1,7 +1,7 @@
 <template>
   <div class="header-inner">
     <h1 class="name">Cory Lashway</h1>
-    <p class="job-title">Sr. Developer</p>
+    <p class="job-title">Developer</p>
     <figure class="picture">
       <img src="~/assets/cory.jpg" alt="">
     </figure>
@@ -10,8 +10,8 @@
       <li>Birthday: <span class="answer">06 March 1985</span></li>
       <li>Job: <span class="answer">VP, Engineering</span></li>
       <li>Email: <span class="answer"><a  href="mailto:cory.lashway@gmail.com?subject=Inquiry">cory.lashway@gmail.com</a></span></li>
-      <li>github: <span class="answer"><a href="https://github.com/clashway">clashway</a></span></li>
-      <li>linkedin: <span class="answer"><a href="https://www.linkedin.com/in/corylashway">corylashway</a></span></li>
+      <li>GitHub: <span class="answer"><a href="https://github.com/clashway">clashway</a></span></li>
+      <li>LinkedIn: <span class="answer"><a href="https://www.linkedin.com/in/corylashway">corylashway</a></span></li>
     </ul>
     <div class="resume-button">
       <button type="button" name="download-resume">download resume</button>
@@ -58,7 +58,7 @@ h1.name {
   padding-left: 20px;
 }
 .summary-bullets {
-  padding-top: 50px;
+  padding-top: 20px;
   margin-left: -10px;
 }
 .summary-bullets li {
