@@ -38,7 +38,6 @@ export default {
   min-height: 100vh;
 }
 .header {
-  /* margin-top: 20px; */
   background: #fff;
   grid-area: header;
 }
@@ -53,12 +52,12 @@ export default {
 }
 .footer {
   background: #1e1e1e;
-  align-self: end;
   text-align: center;
+  line-height: 55px;
   color: white;
   grid-area: footer;
 }
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 800px) {
   .container {
     display: grid;
     grid-template-columns: 10px 300px 1fr 50px;

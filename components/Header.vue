@@ -2,6 +2,9 @@
   <div class="header-inner">
     <h1 class="name">Cory Lashway</h1>
     <p class="job-title">Sr. Developer</p>
+    <figure class="picture">
+      <img src="~/assets/cory.jpg" alt="">
+    </figure>
     <ul class="summary-bullets">
       <li>Name: <span class="answer">Cory Lashway</span></li>
       <li>Birthday: <span class="answer">06 March 1985</span></li>
@@ -28,10 +31,18 @@ export default {
 
 <style scoped>
 .header-inner {
-  background-image: url('~/assets/cory.jpg');
+  /* background-image: url('~/assets/cory.jpg');
   background-repeat: no-repeat;
   background-size: 100% auto;
-  background-position: 0 32px;
+  background-position: 0 32px; */
+}
+.picture {
+  padding: 0;
+  margin: 0;
+  margin-top: -10px;
+}
+.picture img {
+  width: 100%;
 }
 h1.name {
   text-transform: uppercase;
@@ -47,7 +58,7 @@ h1.name {
   padding-left: 20px;
 }
 .summary-bullets {
-  padding-top: 300px;
+  padding-top: 50px;
   margin-left: -10px;
 }
 .summary-bullets li {
