@@ -1,9 +1,9 @@
 <template>
   <div class="nav-inner">
-    <span class="home"><a href="/">Bio</a></span>
+    <span class="home"><router-link to="/">Bio</router-link></span>
     <ul class="nav-links">
-      <li><a href="/portfolio">Portfolio</a></li>
-      <li><a href="/contact">Contact</a></li>
+      <li><router-link to="/portfolio">Portfolio</router-link></li>
+      <li><router-link to="/contact">Contact</router-link></li>
     </ul>
     <span class="business-inquiry">
       <button type="button" name="inquiry">Hire Me</button>
