@@ -27,8 +27,9 @@ export default {
 .container {
   display: grid;
   grid-template-columns: 10px 300px 50px;
-  grid-template-rows: 1fr 550px 60px 30px;
+  grid-template-rows: 10px 1fr 550px 60px 30px;
   grid-template-areas:
+    ". . ."
     ". header ."
     ". main-content ."
     ". footer ."
@@ -37,17 +38,16 @@ export default {
   min-height: 100vh;
 }
 .header {
-  margin-top: 20px;
+  /* margin-top: 20px; */
   background: #fff;
   grid-area: header;
 }
 .nav {
-  padding-left: 30px;
   background: #fff;
   grid-area: nav;
 }
 .main-content {
-  padding-left: 30px;
+  padding-left: 10px;
   background: #fff;
   grid-area: main-content;
 }
@@ -62,8 +62,9 @@ export default {
   .container {
     display: grid;
     grid-template-columns: 10px 300px 1fr 50px;
-    grid-template-rows: 60px 500px 60px 30px;
+    grid-template-rows: 10px 60px 500px 60px 30px;
     grid-template-areas:
+      ". . . ."
       ". header nav ."
       ". header main-content ."
       ". header footer ."
