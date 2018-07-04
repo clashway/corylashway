@@ -29,7 +29,7 @@ export default {
 .home {
   text-align: center;
   line-height: 60px;
-  background: yellow;
+  background: #fffc00;
   width: 70px;
   height: 100%;
 }
