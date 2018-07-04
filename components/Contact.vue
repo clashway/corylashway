@@ -21,10 +21,11 @@ export default {
 
 <style scoped>
 h2 {
+  margin-left: 5px;
   border-bottom: 1px solid #777777;
   width: 250px;
 }
 .body {
-  padding-top: 5px;
+  padding: 0 5px 0 5px;
 }
 </style>
