@@ -23,10 +23,10 @@ a {
 a:hover {
   text-decoration: underline;
 }
-a.nuxt-link-active {
+a.active {
   text-decoration: underline;
 }
-a.nuxt-exact-link-active {
+a.exact-active {
   text-decoration: underline;
 }
 </style>

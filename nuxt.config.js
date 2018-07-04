@@ -14,6 +14,10 @@ module.exports = {
       { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:400,500,700,900' }
     ]
   },
+  router: {
+    linkActiveClass: 'active',
+    linkExactActiveClass: 'exact-active'
+  },
   /*
   ** Customize the progress bar color
   */
