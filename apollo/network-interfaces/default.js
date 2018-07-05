@@ -19,8 +19,7 @@ export default ({ store }) => {
   //         }
   //         next()
   //       })
-  //     }
-  //   }
+~  //   }
   // }
 
   // networkInterface.useAfter([logErrors])
