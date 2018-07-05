@@ -28,8 +28,14 @@ module.exports = {
           icons: ['faHome']
         },
       ]
-    }]
+    }],
+    ['@nuxtjs/apollo']
   ],
+  apollo: {
+    networkInterfaces: {
+      default: '~/apollo/network-interfaces/default.js'
+    }
+  },
   /*
   ** Customize the progress bar color
   */
