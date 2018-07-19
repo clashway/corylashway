@@ -9,9 +9,9 @@
       <li><router-link to="/portfolio">Portfolio</router-link></li>
       <li><router-link to="/contact">Contact</router-link></li>
     </ul>
-    <span class="business-inquiry">
+    <!--<span class="business-inquiry">
       <button type="button" name="inquiry">Hire Me</button>
-    </span>
+    </span> -->
   </div>
 </template>
 

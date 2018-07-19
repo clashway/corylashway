@@ -8,14 +8,11 @@
     <ul class="summary-bullets">
       <li>Name: <span class="answer">Cory Lashway</span></li>
       <li>Birthday: <span class="answer">06 March 1985</span></li>
-      <li>Job: <span class="answer">VP, Engineering</span></li>
       <li>Email: <span class="answer"><a  href="mailto:cory.lashway@gmail.com?subject=Inquiry">cory.lashway@gmail.com</a></span></li>
-      <li>GitHub: <span class="answer"><a href="https://github.com/clashway">clashway</a></span></li>
-      <li>LinkedIn: <span class="answer"><a href="https://www.linkedin.com/in/corylashway">corylashway</a></span></li>
+      <li>GitHub: <span class="answer"><a href="https://github.com/clashway" target="_blank">clashway</a></span></li>
+      <li>LinkedIn: <span class="answer"><a href="https://www.linkedin.com/in/corylashway" target="_blank">corylashway</a></span></li>
     </ul>
-    <div class="resume-button">
-      <button type="button" name="download-resume">download resume</button>
-    </div>
+    <a :href="resumeUrl" class="resume-button" download="cory_resume.pdf">Download Resume</a>
   </div>
 </template>
 
@@ -23,7 +20,7 @@
 export default {
   data () {
     return {
-
+      resumeUrl: "https://firebasestorage.googleapis.com/v0/b/corylashway24.appspot.com/o/cory_resume_2018.pdf?alt=media&token=b4100302-a5c2-4a6b-beac-8116fe4b4a5e"
     }
   }
 }

@@ -3,7 +3,7 @@
     <app-header class="header"></app-header>
     <app-nav class="nav"></app-nav>
     <app-aboutme class="main-content"></app-aboutme>
-    <app-footer class="footer"></app-footer>
+    <!-- <app-footer class="footer"></app-footer> -->
   </section>
 </template>
 
